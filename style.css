@@ -1,0 +1,72 @@
+h1{
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 50px;
+
+}
+
+.heading img{
+    display: block;
+    margin: auto;
+}
+
+.heading h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contents h1{
+    color: gray;
+}
+
+.contents p{
+    text-align: center;
+}
+
+.contents table{
+    
+    background-color:silver;
+    border:1px solid black;
+   /* border-spacing: 10px;  */
+    font-size: small;
+    font-family:sans-serif;
+    display: block;
+    margin: auto;
+    float: left;
+    
+    
+
+
+}
+
+.contents table, th, td {
+    border: 1px solid black;
+}
+
+.contents tr:hover{
+
+    background-color: yellow;
+    text-shadow: 2px 2px 5px red;
+
+}
+
+.floatright h2{
+    text-align: right;
+    font-size:40px;
+}
+
+.floatright table{
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+    background-color: skyblue;
+    text-align: center;
+    
+}
+
+.floatright tr:hover{
+    background-color: yellow;
+    text-shadow: 10px 10px 5px red;
+}
+
